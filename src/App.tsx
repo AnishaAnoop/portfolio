@@ -9,7 +9,6 @@ import { Experience } from './experience';
 import { Projects } from './projects';
 import { Footer } from './footer';
 import { Education } from './education';
-import { Contact } from './contact';
 
 export const App = () => {
 
@@ -23,7 +22,6 @@ export const App = () => {
       <Experience />
       <Projects />
       <Education />
-      <Contact />
       <Footer />
     </Box>
   );

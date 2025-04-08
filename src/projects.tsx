@@ -3,8 +3,8 @@ import { motion } from "framer-motion";
 
 const projects = [
     {
-        title: "Project Title 1",
-        description: "A brief description of the project and the technologies used.",
+        title: "E-Commerce Website",
+        description: "A full-featured e-commerce platform built with React and Node.js, featuring real-time inventory management and secure payment processing.",
         image: "/images/e-commerce.jpg",
     },
     {

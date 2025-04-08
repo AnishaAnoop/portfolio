@@ -50,41 +50,41 @@ export const Header = () => {
               href="https://github.com"
               target="_blank"
               rel="noopener noreferrer"
-              whileHover={{ scale: 1.2, rotate: 5 }}
+              whileHover={{ scale: 1.9, rotate: 5 }}
               whileTap={{ scale: 0.95 }}
               transition={{ type: 'spring', stiffness: 300 }}
             >
-              <GitHub />
+              <GitHub sx={{ height: 26, width: 26, color: 'text.primary' }} />
             </motion.a>
             <motion.a
               href="https://www.linkedin.com/in/anisha-c-s-2077b3135/"
               target="_blank"
               rel="noopener noreferrer"
-              whileHover={{ scale: 1.2, rotate: 5 }}
+              whileHover={{ scale: 1.9, rotate: 5 }}
               whileTap={{ scale: 0.95 }}
               transition={{ type: 'spring', stiffness: 300 }}
             >
-              <LinkedIn sx={{ height: 24, width: 24 }} />
+              <LinkedIn sx={{ height: 26, width: 26, color: 'text.primary' }} />
             </motion.a>
             <motion.a
               href="mailto:anishacs94@gmail.com"
               target="_blank"
               rel="noopener noreferrer"
-              whileHover={{ scale: 1.2, rotate: 5 }}
+              whileHover={{ scale: 1.9, rotate: 5 }}
               whileTap={{ scale: 0.95 }}
               transition={{ type: 'spring', stiffness: 300 }}
             >
-              <Email sx={{ height: 24, width: 24 }} />
+              <Email sx={{ height: 26, width: 26, color: 'text.primary' }} />
             </motion.a>
             <motion.a
               href="https://www.instagram.com/ivus_mom/?hl=en"
               target="_blank"
               rel="noopener noreferrer"
-              whileHover={{ scale: 1.2, rotate: 5 }}
+              whileHover={{ scale: 1.9, rotate: 5 }}
               whileTap={{ scale: 0.95 }}
               transition={{ type: 'spring', stiffness: 300 }}
             >
-              <Instagram sx={{ height: 24, width: 24 }} />
+              <Instagram sx={{ height: 26, width: 26, color: 'text.primary' }} />
             </motion.a>
           </Box>
         </Container>
