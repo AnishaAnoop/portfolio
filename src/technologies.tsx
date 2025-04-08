@@ -23,7 +23,10 @@ export function Technologies() {
                 >
                  Technologies
                 </Typography>
-  <Box sx={{alignSelf: 'center', paddingTop: 4, display: 'flex', gap: 2}}>
+  <Box sx={{alignSelf: 'center', paddingTop: 4, display: 'flex', gap: 2, flexDirection: {
+          xs: 'column', 
+          sm: 'row', 
+        },}}>
   <motion.div
     animate={{
         scale: [1, 1.1, 1],
