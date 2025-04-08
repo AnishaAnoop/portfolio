@@ -24,7 +24,7 @@ export function Technologies() {
             Technologies
           </Typography>
           <Box sx={{
-            alignSelf: 'center', paddingTop: 4, display: 'flex', gap: 2, flexDirection: {
+            paddingTop: 4, display: 'flex', gap: 2, alignItems: 'center', flexDirection: {
               xs: 'column',
               sm: 'row',
             },

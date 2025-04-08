@@ -2,7 +2,7 @@ import { Box, Container, Grid, Typography } from "@mui/material";
 
 export const Education = () => {
     return (
-        <Box sx={{ color: 'text.primary', paddingY: 12 }}>
+        <Box sx={{ color: 'text.primary', paddingY: 8 }}>
             <Container>
                 <Typography
                     variant="h4"

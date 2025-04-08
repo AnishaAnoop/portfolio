@@ -6,7 +6,7 @@ import { motion } from 'framer-motion';
 
 export const Header = () => {
   return (
-    <Box sx={{ color: 'text.primary', display: 'Flex', flexDirection: 'column', alignItems: 'center', paddingTop: 20 }}>
+    <Box sx={{ color: 'text.primary', display: 'Flex', flexDirection: 'column', alignItems: 'center', paddingY: 8 }}>
 
       <Avatar
         alt="Anisha C S"

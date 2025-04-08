@@ -50,7 +50,7 @@ const workData = [
 
 export const Experience = () => {
   return (
-    <Box sx={{ color: 'text.primary', paddingTop: 20 }}>
+    <Box sx={{ color: 'text.primary', paddingY: 8 }}>
       <Container>
         <Typography
           variant="h4"

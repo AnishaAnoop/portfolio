@@ -37,7 +37,7 @@ const cardVariants = {
 
 export const Projects = () => {
     return (
-        <Box sx={{ py: 8, px: 4, color: "#fff" }}>
+        <Box sx={{ paddingY: 8, px: 4, color: "#fff" }}>
             <Typography variant="h4" align="center" gutterBottom fontWeight="bold">
                 Projects
             </Typography>

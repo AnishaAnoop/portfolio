@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 
 export const About = () => {
   return (
-    <Box sx={{ py: 20, color: 'text.primary', display: 'Flex', flexDirection: 'column', alignItems: 'center' }}>
+    <Box sx={{ paddingY: 8, color: 'text.primary', display: 'Flex', flexDirection: 'column', alignItems: 'center' }}>
       <motion.div
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
