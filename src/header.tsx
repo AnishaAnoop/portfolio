@@ -67,7 +67,7 @@ export const Header = () => {
               <LinkedIn sx={{ height: 26, width: 26, color: 'text.primary' }} />
             </motion.a>
             <motion.a
-              href="mailto:anishacs94@gmail.com"
+              href="mailto:csanisha1810@gmail.com"
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{ scale: 1.9, rotate: 5 }}
